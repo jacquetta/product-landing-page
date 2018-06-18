@@ -9,22 +9,23 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lora|Spirax" rel="stylesheet">
 
 </head>
 
 <body>
   <header id="header">
-    <div class="w3-row w3-margin">
-      <div class="w3-third w3-container">
+    <div class="w3-row w3-mobile w3-top">
+      <div class="w3-third w3-container w3-mobile" id="div-header">
         <img src="https://picsum.photos/60/40/?gravity=center" id="header-img" alt="placeholder-img">
+        <h1 id="title">Dragon Cupcakes</h1>
       </div><!--w3-half  w3-container-->
       <div class="w3-third w3-container">
-        <h1>Dragon Cupcakes</h1>
       </div><!--w3-half  w3-container-->
-      <div class="w3-third w3-container">
+      <div class="w3-third w3-container w3-mobile">
         <nav id="nav-bar" class="w3-bar">
           <a href="#tasty-info" class="nav-link w3-bar-item w3-button w3-mobile">Deliciousness</a>
           <a href="#cupcake-list" class="nav-link w3-bar-item w3-button w3-mobile">Menu</a>
@@ -36,9 +37,9 @@
 
 
   <section id="email-me">
-    <div class="w3-row w3-container form-group w3-margin">
+    <div class="w3-row w3-container form-group">
       <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <h2>Custom-made and Custom-designed Dragon Bites</h2>
+        <h2 id="email-title">Custom-made and Custom-designed Dragon Bites</h2>
         <input type="email" class="form-control" id="email" name="email" placeholder="enter email address" required>
         <input type="submit" value="Submit" id="submit" formtarget="_blank">
       </form>
@@ -109,7 +110,7 @@
 
   <section id="cupcake-list">
     <div class="w3-row w3-margin">
-      <div class="w3-third w3-container">
+      <div class="w3-third w3-container" id="cupcake-div-one">
         <figure>
           <img src="img/cupcake_one.jpg" alt="cupcake one" width="400" height="200">
           <figcapture>Photo by Robert Zunikoff on Unsplash</figcapture>
@@ -119,7 +120,7 @@
         <button type="button">Order</button>
       </div><!--w3-third w3-container-->
 
-      <div class="w3-third w3-container">
+      <div class="w3-third w3-container" id="cupcake-div-two">
         <figure>
           <img src="img/cupcake_two.jpg" alt="cupcake two" width="400" height="200">
           <figcapture>Photo by Austin Moncada on Unsplash</figcapture>
@@ -129,7 +130,7 @@
         <button type="button">Order</button>
       </div><!--w3-third w3-container-->
 
-      <div class="w3-third w3-container">
+      <div class="w3-third w3-container" id="cupcake-div-three">
         <figure>
           <img src="img/cupcake_three.jpg" alt="cupcake three" width="400" height="200">
           <figcapture>Photo by Clem Onojeghuo on Unsplash</figcapture>
@@ -144,7 +145,7 @@
   <section id="about-us">
     <div class="w3-row w3-margin">
       <div class="w3-container">
-        <h3>About us</h3>
+        <h3 id="about-title">About us</h3>
         <p>Cupcake ipsum dolor. Sit amet carrot cake gingerbread jelly beans gingerbread macaroon cupcake. Liquorice macaroon topping cake pudding. Cotton candy croissant dessert ice cream donut croissant dessert. Carrot cake muffin wafer. Pie lemon drops candy lemon drops jujubes sweet roll dessert. Carrot cake tiramisu wafer tart muffin. Dessert chupa chups lollipop cookie lemon drops powder lemon drops.</p>
         <p>Apple pie bear claw gummies pastry muffin sweet roll caramels oat cake. Tootsie roll cheesecake sweet biscuit lemon drops. Jujubes liquorice sweet chupa chups. Candy ice cream carrot cake gummies ice cream. Sweet roll marzipan icing muffin pudding. Tootsie roll cotton candy ice cream chocolate bar sweet gingerbread gingerbread sweet. Danish fruitcake gummies cheesecake chocolate cake. Cupcake sweet cake bear claw macaroon powder carrot cake cheesecake. Chocolate bar ice cream cheesecake marshmallow.</p>
       </div><!--w3-container-->
@@ -159,6 +160,13 @@
         <i class="fa fa-copyright">Jacquetta Bommuluri  2018</i>
       </div>
       <div>
+        <p id="w3val">
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" >
+          </a>
+        </p>
       </div>
     </div><!--flex-container-->
 
